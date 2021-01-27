@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.html title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.photo {
+    float: right;
+}
+
+.name {
+    padding: 5px;
+    background-color: chocolate;
+}
+
+.navigationBar {
+    background-color: rgb(52, 175, 15);
+    overflow: hidden;
+}
+
+.navigationBar a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+}
+
+.navigationBar a:hover {
+    background-color: #555;
+}
+
+.project-title p {
+    padding: 10px 0;
+}
+
+.project-title a {
+    text-decoration: none;
+    color: firebrick;
+}
+
+.project h1,
+h2 {
+    font-weight: bold;
+    margin: 10px 10px 10px 20px;
+    padding-top: 10px;
+}
+
+.project {
+    margin: 10px 10px 20px 10px;
+}
+
+.content ul {
+    margin: 10px;
+    padding: 10px;
+    list-style: circle;
+}
