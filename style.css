@@ -4,27 +4,46 @@
     box-sizing: border-box;
 }
 
+.main {
+    /* background-image: url(eric-muhr-8zskmq_yL6Q-unsplash.jpg);
+    background-size: cover;/*/
+    background-color: rgb(209, 164, 164);
+    height: 1200px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .html title {
     font-family: 'Times New Roman', Times, serif;
 }
 
 .photo {
     float: right;
+    width: 25%;
 }
 
 .name {
     padding: 5px;
     background-color: chocolate;
+    position: fixed;
+    top: 0;
+    z-index: 10px;
+    width: 100%
 }
 
 .navigationBar {
     background-color: rgb(52, 175, 15);
     overflow: hidden;
+    position: fixed;
+    top: 85px;
+    z-index: 10px;
+    width: 100%
 }
 
 .navigationBar a {
     float: left;
-    text-decoration: none;
     color: white;
     padding: 20px 20px;
 }
@@ -33,28 +52,21 @@
     background-color: #555;
 }
 
-.project-title p {
-    padding: 10px 0;
-}
-
-.project-title a {
-    text-decoration: none;
-    color: firebrick;
-}
-
 .project h1,
 h2 {
     font-weight: bold;
-    margin: 10px 10px 10px 20px;
-    padding-top: 10px;
+    margin: 30px 20px 10px 0px;
+    padding: 10px 0 0 50px;
+    background-color: coral;
 }
 
 .project {
-    margin: 10px 10px 20px 10px;
+    margin: 130px 10px 20px 0px;
+    padding: 30px 10px
 }
 
 .content ul {
     margin: 10px;
     padding: 10px;
-    list-style: circle;
+    list-style: disc;
 }
